@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
     <script src="../../node_modules/angular/angular.min.js"></script>
 </head>
-<body>
-    {{'hello'}}
+<body ng-app="">
+
+<div>
+    <p>名字 : <input type="text" ng-model="user.name"></p>
+    <h1>Hello {{user.name}}</h1>
+</div>
 </body>
 </html>

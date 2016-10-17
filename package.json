@@ -2,11 +2,17 @@
   "name": "demo",
   "version": "1.0.0",
   "description": "demo",
-  "main": "index.js",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "gulp": "^3.9.1",
+    "rc-table": "^5.0.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node_modules/.bin/webpack",
-    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/KingShow/demo/issues"
   },
-  "homepagels": "https://github.com/KingShow/demo#readme",
-  "devDependencies": {
-    "webpack": "^1.13.2"
-  }
+  "homepage": "https://github.com/KingShow/demo#readme"
 }
